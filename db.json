@@ -1,0 +1,49 @@
+{
+  "seller": [
+    {
+      "name": "sdfadsfa",
+      "email": "dfasdf",
+      "password": "asdfas",
+      "confirmPassword": "asdfad",
+      "id": 1
+    },
+    {
+      "name": "peter",
+      "email": "pan@fasdf.cm",
+      "password": "dfadfa",
+      "confirmPassword": "dfadfa",
+      "id": 2
+    },
+    {
+      "name": "fsdjfl",
+      "email": "fsdfla@fasd.co",
+      "password": "asdff",
+      "confirmPassword": "skjfhdasdf",
+      "id": 3
+    },
+    {
+      "name": "bruce",
+      "email": "fsasfd@ffs.com",
+      "password": "bruce",
+      "id": 4
+    },
+    {
+      "name": "Prashant",
+      "email": "afdfwf@fsdf.com",
+      "password": "password",
+      "id": 5
+    },
+    {
+      "name": "afsdf",
+      "email": "adfak",
+      "password": "dfasd",
+      "id": 6
+    },
+    {
+      "name": "afsdf",
+      "email": "adfak",
+      "password": "dfasd",
+      "id": 7
+    }
+  ]
+}

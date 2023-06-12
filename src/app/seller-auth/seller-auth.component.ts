@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { SellerService } from '../services/seller.service';
+import {Router} from '@angular/router'
+import { SignUp } from '../data-type';
 
 @Component({
   selector: 'app-seller-auth',
@@ -6,7 +9,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./seller-auth.component.scss']
 })
 export class SellerAuthComponent {
-  signUp (data:object):void {
-    console.log({data});
+  constructor(private seller:SellerService, private router:Router) {}
+  signUp (data:SignUp):void {
+    this.seller.userSignUP(data);
   }
 }
